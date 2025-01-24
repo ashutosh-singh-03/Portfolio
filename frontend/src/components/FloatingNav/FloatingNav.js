@@ -41,44 +41,44 @@ const FloatingNav = () => {
       <div className={`floating-nav ${isDarkMode ? 'dark' : 'light'}`}>
         <div className="nav-links">
           <a href="#home" className={`nav-link ${activeSection === 'home' ? 'active' : ''}`} title="Home">
-            <i className="fas fa-home"></i>
+            <i className="fas fa-home" />
           </a>
           <a href="#about" className={`nav-link ${activeSection === 'about' ? 'active' : ''}`} title="About">
-            <i className="fas fa-user"></i>
+            <i className="fas fa-user" />
           </a>
           <a href="#projects" className={`nav-link ${activeSection === 'projects' ? 'active' : ''}`} title="Projects">
-            <i className="fas fa-code"></i>
+            <i className="fas fa-code" />
           </a>
           <a href="#contact" className={`nav-link ${activeSection === 'contact' ? 'active' : ''}`} title="Contact">
-            <i className="fas fa-envelope"></i>
+            <i className="fas fa-envelope" />
           </a>
         </div>
         
-        <div className="nav-divider"></div>
+        <div className="nav-divider" />
         
         <div className="social-links">
           <a href="https://github.com" className="nav-link" target="_blank" rel="noopener noreferrer" title="GitHub">
-            <i className="fab fa-github"></i>
+            <i className="fab fa-github" />
           </a>
           <a href="https://linkedin.com" className="nav-link" target="_blank" rel="noopener noreferrer" title="LinkedIn">
-            <i className="fab fa-linkedin-in"></i>
+            <i className="fab fa-linkedin-in" />
           </a>
           <a href="https://twitter.com" className="nav-link" target="_blank" rel="noopener noreferrer" title="Twitter">
-            <i className="fab fa-twitter"></i>
+            <i className="fab fa-twitter" />
           </a>
           <a href="mailto:example@email.com" className="nav-link" target="_blank" rel="noopener noreferrer" title="Email">
-            <i className="fas fa-envelope"></i>
+            <i className="fas fa-envelope" />
           </a>
         </div>
 
-        <div className="theme-divider"></div>
+        <div className="theme-divider" />
         
         <button 
           className="nav-link theme-toggle" 
           onClick={toggleTheme} 
           title={isDarkMode ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
         >
-          <i className={`fas ${isDarkMode ? 'fa-sun' : 'fa-moon'}`}></i>
+          <i className={`fas ${isDarkMode ? 'fa-sun' : 'fa-moon'}`} />
         </button>
       </div>
 
@@ -87,7 +87,7 @@ const FloatingNav = () => {
         onClick={scrollToTop}
         title="Scroll to Top"
       >
-        <i className="fas fa-arrow-up"></i>
+        <i className="fas fa-arrow-up" />
       </button>
     </>
   );

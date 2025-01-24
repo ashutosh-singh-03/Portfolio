@@ -31,7 +31,7 @@ const Contact = () => {
             <div className="contact-info">
               <div className="contact-card">
                 <div className="contact-icon">
-                  <i className="fas fa-envelope"></i>
+                  <i className="fas fa-envelope" />
                 </div>
                 <div className="contact-card-content">
                   <h3>Email</h3>
@@ -40,7 +40,7 @@ const Contact = () => {
               </div>
               <div className="contact-card">
                 <div className="contact-icon">
-                  <i className="fas fa-phone"></i>
+                  <i className="fas fa-phone" />
                 </div>
                 <div className="contact-card-content">
                   <h3>Phone</h3>
@@ -49,7 +49,7 @@ const Contact = () => {
               </div>
               <div className="contact-card">
                 <div className="contact-icon">
-                  <i className="fas fa-map-marker-alt"></i>
+                  <i className="fas fa-map-marker-alt" />
                 </div>
                 <div className="contact-card-content">
                   <h3>Location</h3>
@@ -96,13 +96,13 @@ const Contact = () => {
                 onChange={handleChange}
                 className={formData.message ? 'focused' : ''}
                 required
-              ></textarea>
+               />
               <label className={formData.message ? 'active' : ''}>Message</label>
             </div>
 
             <button type="submit" className="submit-btn">
               Send Message
-              <i className="fas fa-paper-plane"></i>
+              <i className="fas fa-paper-plane" />
             </button>
           </form>
         </div>

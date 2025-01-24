@@ -38,7 +38,7 @@ const Header = () => {
           Ashutosh Singh
         </a>
         <button className="mobile-menu-btn" onClick={toggleMenu}>
-          <i className={`fas ${isMenuOpen ? 'fa-times' : 'fa-bars'}`}></i>
+          <i className={`fas ${isMenuOpen ? 'fa-times' : 'fa-bars'}`} />
         </button>
         <nav className={`nav-menu ${isMenuOpen ? 'active' : ''}`}>
           <a href="#home" className={`nav-link ${activeSection === 'home' ? 'active' : ''}`}>
